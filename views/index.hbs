@@ -1,0 +1,457 @@
+<html lang='ru'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Погодина Оксана - Родолог-ансестолог</title>
+    <link
+      rel='stylesheet'
+      href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'
+    />
+    <link rel='stylesheet' href='css/style.css' />
+    <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css" /> -->
+  </head>
+
+  <body>
+
+    <header class='header'>
+      <div class='container'>
+        <div class='header__inner'>
+          <div class='header__left'>
+            <a class='header__logo-link' href='/'>
+              <img class='header__logo-img' src='./images/logo.png' alt='Логотип' />
+            </a>
+            <div class='header__box'>
+              <p class='header__logo-title'>Родолог-ансестолог</p>
+              <p class='header__logo-name'>Погодина Оксана Александровна</p>
+            </div>
+          </div>
+          <div class='header__right'>
+            <p class='header__right-text'>
+              <a href='#'>
+                Задать вопрос
+                <span>С 10:00 до 22:00</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id='toast' class='toast-hidden'>
+      <p>Успешно! Данные сохранены.</p>
+    </div>
+
+    <!-- Навигация -->
+    <nav class='nav'>
+      <div class='container'>
+        <ul class='nav__menu'>
+          <li class='nav__menu-list'>
+            <a class='nav__menu-link' href='#about-me'>Обо мне</a>
+          </li>
+          <li class='nav__menu-list'>
+            <a class='nav__menu-link' href='#consultation-me'>Консультация</a>
+          </li>
+          <li class='nav__menu-list'>
+            <a class='nav__menu-link' href='#contacts-me'>Контакты</a>
+          </li>
+          <!-- <li class="nav__menu-list">
+            <a class="nav__menu-link" href="#reviews-me">Отзывы</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <main class='main'>
+      <!-- Герой секция -->
+      <section class='expert'>
+        <div class='container'>
+          <div class='expert__inner'>
+            <div class='expert__content-box'>
+              <h1 class='expert__title'>Специалист по работе с родовым бессознательным</h1>
+              <p class='expert__text'>
+                Помогаю вам найти причинно-следственные неосознанные связи прошлого вашей семьи с
+                вашим настоящим
+              </p>
+              <p class='expert__text'>
+                Мы часто не осознаём, как жизнь наших предков напрямую влияет на нас, хотим мы этого
+                или нет, даже если мы их совсем не знаем.
+              </p>
+              <h2 class='expert__text-title'>
+                Ваша жизнь - это отражение сотен и тысяч жизней ваших предков.
+              </h2>
+            </div>
+            <div class='expert__photo-box'>
+              <img class='expert__photo-img' src='images/Business.jpg' alt='Оксана Погодина' />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Маркеры проблем -->
+      <section class='marker'>
+        <div class='container'>
+          <h2 class='marker__title'>Маркеры, которые указывают на наличие негативных программ</h2>
+          <ul class='marker__list'>
+            <li class='marker__item'>
+              <img class='marker__img' src='images/health.svg' alt='Здоровье' />
+              <div class='marker__item-box'>
+                <p class='marker__item-title'>Здоровье</p>
+                <p class='marker__item-text'>
+                  Вы часто болеете, у вас нет сил и энергии, ваши детки болеют, проблемы с
+                  деторождением, зависимости.
+                </p>
+              </div>
+            </li>
+            <li class='marker__item'>
+              <img class='marker__img' src='images/money.svg' alt='Деньги' />
+              <div class='marker__item-box'>
+                <p class='marker__item-title'>Деньги</p>
+                <p class='marker__item-text'>
+                  Тяжело зарабатываете, сливаете, не удаётся отложить и накопить, у вас постоянные
+                  долги и кредиты.
+                </p>
+              </div>
+            </li>
+            <li class='marker__item'>
+              <img class='marker__img' src='images/releazation.svg' alt='Реализация' />
+              <div class='marker__item-box'>
+                <p class='marker__item-title'>Реализация</p>
+                <p class='marker__item-text'>
+                  Бегаете с работы на работу, не можете найти себя в жизни.
+                </p>
+              </div>
+            </li>
+            <li class='marker__item'>
+              <img class='marker__img' src='images/relation.svg' alt='Отношения' />
+              <div class='marker__item-box'>
+                <p class='marker__item-title'>Отношения</p>
+                <p class='marker__item-text'>
+                  У вас напряжённые отношения с родителями, партнёром, детьми. Вы не можете найти
+                  того самого, вас постоянно бросают, изменяют и т.д.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class='often' id='consultation-me'>
+        <div class='container'>
+          <h2 class='often__title'>Часто задаваемые вопросы</h2>
+          <div class='dropdown'>
+            <div class='dropdown-button'>Кто такой родолог?</div>
+            <div class='dropdown-menu'>
+              Родолог - это человек, который видит вашу жизнь, как отражение сотен и тысяч жизней
+              ваших предков. Помогает объяснить события, которые с нами происходят, понять их
+              причинно-следственную связь и определить какие проблемы вы унаследовали от бабушек и
+              прабабушек, а какие создали сами. И самое главное он знает как эти проблемы решать!
+            </div>
+          </div>
+          <div class='dropdown'>
+            <div class='dropdown-button'>Кто такой ансестолог?</div>
+            <div class='dropdown-menu'>
+              Ансестолог работает с взаимосвязью между родовым бессознательным и энергетическими
+              центрами человека, а также изучает взаимодействие тонких и материальных структур в
+              поле родов.
+            </div>
+          </div>
+          <div class='dropdown'>
+            <div class='dropdown-button'>
+              Чем может помочь ансистолог и ансестологический анализ?
+            </div>
+            <div class='dropdown-menu'>
+              <ul class='dropdown__ul'>
+                <li class='dropdown__list'>взаимоотношение в семье</li>
+                <li class='dropdown__list'>принятие своего места в родовой системе</li>
+                <li class='dropdown__list'>работа с детьми в родовой системе</li>
+                <li class='dropdown__list'>
+                  неготивные ситуации с детьми, эко, аборты, выкидыши, непринятие детей.
+                </li>
+                <li class='dropdown__list'>непрожитые чувства и эмоции</li>
+                <li class='dropdown__list'>панические атаки, чувства страха, стрессы</li>
+                <li class='dropdown__list'>востановления связи с родителями</li>
+                <li class='dropdown__list'>востановления контакта с мужским и эенским родом</li>
+                <li class='dropdown__list'>выстраивание отношений с мужским и женским родом</li>
+                <li class='dropdown__list'>помощь в выборе профессии</li>
+              </ul>
+            </div>
+          </div>
+          <div class='dropdown'>
+            <div class='dropdown-button'>Когда я увижу результат от родологии?</div>
+            <div class='dropdown-menu'>
+              В большинстве случаев 2 месяцев работы по индивидуально разработанной программе и
+              достаточно для достижения желаемого Вами результата. Точнее сориентировать по срокам
+              решения именно Вашей проблемы я смогу после предварительного общения с Вами на
+              бесплатной консультации. Отзывы моих доверителей подтверждают эффективность моей
+              работы.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class='services-container'>
+        <div class='container'>
+          <h1 class='services-title'>Консультация родолога</h1>
+
+          <div class='services-grid'>
+            <!-- Карточка 1 -->
+            <div class='service-card'>
+              <h2 class='service-card__title'>1. Диагностика родовых программ</h2>
+              <ul class='service-card__list'>
+                <li class='service-card__item'>
+                  Анализ повторяющихся сценариев в роду (разводы, болезни, финансовые проблемы)
+                </li>
+                <li class='service-card__item'>Выявление родовых травм и негативных установок</li>
+                <li class='service-card__item'>Определение кармических задач и "долгов" рода</li>
+              </ul>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class='service-card'>
+              <h2 class='service-card__title'>2. Работа с родовыми ограничениями</h2>
+              <ul class='service-card__list'>
+                <li class='service-card__item'>
+                  Проработка деструктивных программ (проклятия, венцы безбрачия, родовые проклятия)
+                </li>
+                <li class='service-card__item'>
+                  Методы очищения от негативных родовых влияний (энергетические практики, молитвы,
+                  ритуалы)
+                </li>
+                <li class='service-card__item'>Техники восстановления родовой силы</li>
+              </ul>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class='service-card'>
+              <h2 class='service-card__title'>3. Гармонизация отношений с родом</h2>
+              <ul class='service-card__list'>
+                <li class='service-card__item'>Восстановление связи с предками</li>
+                <li class='service-card__item'>Принятие и исцеление родовых конфликтов</li>
+                <li class='service-card__item'>Практики благодарности и уважения к роду</li>
+              </ul>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class='service-card'>
+              <h2 class='service-card__title'>4. Активация родовых ресурсов</h2>
+              <ul class='service-card__list'>
+                <li class='service-card__item'>
+                  Поиск сильных сторон рода (таланты, способности, поддержка предков)
+                </li>
+                <li class='service-card__item'>Подключение к родовому потоку изобилия</li>
+                <li class='service-card__item'>Техники усиления родовой защиты</li>
+              </ul>
+            </div>
+
+            <!-- Карточка 5 -->
+            <div class='service-card'>
+              <h2 class='service-card__title'>5. Индивидуальные рекомендации</h2>
+              <ul class='service-card__list'>
+                <li class='service-card__item'>Персональные практики, медитации, аффирмации</li>
+                <li class='service-card__item'>
+                  Советы по работе с семейной историей (генеалогическое древо)
+                </li>
+                <li class='service-card__item'>Ритуалы для закрепления результатов</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class='process-container'>
+        <div>
+          <h1 class='process-title'>Как проходит консультация родолога</h1>
+          <p class='process-subtitle'>
+            Индивидуальная работа по выявлению и трансформации родовых программ для гармонизации
+            вашей жизни
+          </p>
+
+          <div class='steps-container'>
+            <div class='process-step'>
+              <div class='step-number'>1</div>
+              <div class='step-content'>
+                <h3 class='step-title'>Знакомство и диагностика</h3>
+                <p class='step-description'>
+                  На первой встрече мы подробно разбираем вашу ситуацию, составляем генограмму
+                  (родовое древо) и выявляем ключевые родовые сценарии. Я использую методы системных
+                  расстановок и энергетической диагностики, чтобы определить основные блоки и
+                  ограничения в вашем роду.
+                </p>
+                <p class='step-duration'>Длительность: 20-30 минут</p>
+              </div>
+            </div>
+
+            <div class='process-step'>
+              <div class='step-number'>2</div>
+              <div class='step-content'>
+                <h3 class='step-title'>Глубокая проработка проблем</h3>
+                <p class='step-description'>
+                  Мы работаем с выявленными родовыми программами через специальные техники:
+                  энергетическое очищение, расстановочные практики, трансформацию негативных
+                  установок. Вы получаете конкретные инструменты для работы с каждым аспектом
+                  проблемы.
+                </p>
+                <p class='step-duration'>Длительность: 40-50 минут</p>
+              </div>
+            </div>
+
+            <div class='process-step'>
+              <div class='step-number'>3</div>
+              <div class='step-content'>
+                <h3 class='step-title'>Активация ресурсов</h3>
+                <p class='step-description'>
+                  После очищения мы подключаемся к родовым ресурсам - находим сильные стороны вашего
+                  рода, таланты и способности, которые можно использовать. Вы получаете доступ к
+                  родовой силе и поддержке предков.
+                </p>
+                <p class='step-duration'>Длительность: 20-30 минут</p>
+              </div>
+            </div>
+
+            <div class='process-step'>
+              <div class='step-number'>4</div>
+              <div class='step-content'>
+                <h3 class='step-title'>Индивидуальные рекомендации</h3>
+                <p class='step-description'>
+                  По итогам сессии вы получаете персональные практики: медитации, аффирмации,
+                  ритуалы для самостоятельной работы. Я даю конкретные советы по гармонизации
+                  отношений с родом и закреплению результатов.
+                </p>
+                <p class='step-duration'>Длительность: 15-20 минут</p>
+              </div>
+            </div>
+          </div>
+
+          <div class='process-note'>
+            <h3 class='note-title'>Важно знать:</h3>
+            <p>
+              Консультация проходит онлайн (Zoom/Skype) или очно (если вы в Москве). Средняя
+              продолжительность сессии - 1,5-2 часа. Для максимального эффекта рекомендуется курс из
+              3-5 консультаций с интервалом 2-4 недели. После каждой встречи вы получаете запись
+              сессии и материалы для самостоятельной работы.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Форма консультации -->
+      <section class='consultation'>
+        <div class='container'>
+          <div class='consultation__inner'>
+            <div class='consultation__inner-left'>
+              <h3 class='consultation__text'>Запись на бесплатную диагностику</h3>
+              <ul class='consultation__list'>
+                <li>Определяем ситуацию на настоящий момент вашей жизни</li>
+                <li>Определяем какие изменения вы хотите в жизни</li>
+                <li>Определяем сильные и слабые стороны</li>
+                <li>Бонусом - родовое предназначение</li>
+              </ul>
+            </div>
+            <form class='consultation__form' method='post' action='/order-call'>
+              <input
+                class='consultation__input'
+                type='tel'
+                placeholder='Телефон'
+                name='phone'
+                required
+              />
+              <input
+                class='consultation__input'
+                type='text'
+                placeholder='Имя'
+                name='name'
+                required
+              />
+              <button class='consultation__button' id='sendFirst'>Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class='about' id='about-me'>
+        <div class='container'>
+          <h2 class='about__title'>Обо мне</h2>
+          <div class='about__main'>
+            <p>
+              Я - сертифицированный специалист по работе с родовыми программами и системными
+              расстановками. Получила диплом Института современной психологии и родологии, где
+              освоила ансестологический метод Ксении Губиной - уникальный подход к диагностике и
+              трансформации родового бессознательного.
+            </p>
+
+            <p>
+              В своей практике я соединяю глубинные психологические техники с энергетическими
+              практиками работы с родом. Это позволяет не просто выявлять негативные программы, но и
+              эффективно трансформировать их, освобождая клиентов от многолетних ограничений.
+            </p>
+
+            <p>
+              За 7 лет практики я провела более 500 консультаций, помогая людям разорвать порочный
+              круг повторяющихся сценариев в отношениях, здоровье и финансах. Моя миссия -
+              восстановить связь человека с его родом как источником силы и поддержки.
+            </p>
+          </div>
+
+          <div class='about__certificates'>
+            <div class='about__certificates-title'>Мои сертификаты и квалификации:</div>
+            <div class='about__certificates-list'>
+              <div class='certificate-badge'>Диплом Института современной психологии</div>
+              <div class='certificate-badge'>Метод ансестологического анализа</div>
+              <div class='certificate-badge'>Системные семейные расстановки</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class='contacts' id='contacts-me'>
+        <div class='container'>
+          <h2 class='contacts__title'>Мои социальные сети</h2>
+          <div class='contacts__box'>
+            <a class='contact__box-link' href='#'>
+              <img class='contact__box-img' src='images/my-telega1.png' alt='telegram' />
+            </a>
+
+            <a class='contact__box-link' href='#'>
+              <img class='contact__box-img' src='images/my-insta.png' alt='instagram' />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class='consultation'>
+        <div class='container'>
+          <div class='consultation__inner'>
+            <div class='consultation__inner-left'>
+              <h3 class='consultation__text'>Запись на бесплатную диагностику</h3>
+              <ul class='consultation__list'>
+                <li>Определяем ситуацию на настоящий момент вашей жизни</li>
+                <li>Определяем какие изменения вы хотите в жизни</li>
+                <li>Определяем сильные и слабые стороны</li>
+                <li>Бонусом - родовое предназначение</li>
+              </ul>
+            </div>
+            <form class='consultation__form' action='/order-call' method='post'>
+              <input
+                class='consultation__input'
+                type='tel'
+                placeholder='Телефон'
+                name='phone'
+                required
+              />
+              <input
+                class='consultation__input'
+                type='text'
+                placeholder='Имя'
+                name='name'
+                required
+              />
+              <button class='consultation__button'>Отправить</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src='js/main.js'></script>
+  </body>
+</html>
