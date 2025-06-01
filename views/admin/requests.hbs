@@ -1,0 +1,19 @@
+<div class='container'>
+  <h1>Список заявок</h1>
+
+  {{#if requests.length}}
+    {{#each requests}}
+      <div class='request-card'>
+        <h3>Заявка #{{@index}}</h3>
+        <p><strong>Имя:</strong> {{this.name}}</p>
+        <p><strong>Телефон:</strong> {{this.phone}}</p>
+        <p class='date'>{{this.date}}</p>
+      </div>
+    {{/each}}
+
+  {{else}}
+    <div class='no-requests'>Нет заявок</div>
+  {{/if}}
+
+  <div class='back-admim'><a href='/admin'>Назад</a></div>
+</div>

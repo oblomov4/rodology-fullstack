@@ -1,7 +1,7 @@
 const express = require('express');
 const urlencodedParser = express.urlencoded({ extended: false });
 const axios = require('axios');
-
+const { saveToJson } = require('../utils/requestsStorage');
 const router = express.Router();
 
 router.get('/', (req, res) => {
@@ -16,13 +16,12 @@ router.post('/order-call', urlencodedParser, async (req, res) => {
   }
 
   try {
-    const TELEGRAM_TOKEN = '7903056723:AAFZ0OUbhCudXF711xzaUSQPmT6KUeYeQ1M';
-    const CHAT_ID = '7533437898';
-
-    await axios.post(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
-      chat_id: CHAT_ID,
+    await axios.post(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/sendMessage`, {
+      chat_id: process.env.CHAT_ID,
       text: `📌 Новая заявка!\nИмя: ${name}\nТелефон: ${phone}\n`,
     });
+
+    saveToJson({ name, phone });
 
     return res.redirect('/?success=true');
   } catch (err) {
@@ -30,4 +29,5 @@ router.post('/order-call', urlencodedParser, async (req, res) => {
     return res.redirect('/?bad=true');
   }
 });
+
 module.exports = router;
