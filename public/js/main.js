@@ -7,12 +7,15 @@ document.querySelectorAll('.dropdown-button').forEach((button) => {
 
 // Проверяем URL при загрузке страницы
 document.addEventListener('DOMContentLoaded', function () {
+  console.log('Страница загрузилась');
+
   const urlParams = new URLSearchParams(window.location.search);
   const success = urlParams.get('success');
+  const bad = urlParams.get('bad');
 
-  if (success === 'true') {
+  if (success) {
     showToast('success', 'Ваша заявка отправлена!');
-  } else {
+  } else if (bad) {
     showToast('error', 'Ваша заявка не отправилась!');
   }
 });
@@ -22,12 +25,14 @@ function showToast(type, message) {
   const toast = document.getElementById('toast');
   toast.textContent = message;
 
+  console.log(toast);
+
   if (type === 'error') {
     toast.style.background = '#F44336';
   } else {
     toast.style.background = '#4CAF50';
   }
 
-  toast.classList.add('toast-visible');
-  setTimeout(() => toast.classList.remove('toast-visible'), 3000);
+  toast.className = 'toast-visible';
+  setTimeout(() => (toast.className = 'toast-hidden'), 3000);
 }

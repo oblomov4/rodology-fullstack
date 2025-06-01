@@ -27,7 +27,7 @@ router.post('/order-call', urlencodedParser, async (req, res) => {
     return res.redirect('/?success=true');
   } catch (err) {
     console.error('Ошибка при сохранении заявки:', err);
-    return res.redirect('/?success=false');
+    return res.redirect('/?bad=true');
   }
 });
 module.exports = router;

@@ -45,7 +45,7 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 .toast-visible {
-  opacity: 1;
+  opacity: 1 !important;
 }
 .toast-hidden {
   opacity: 0;
