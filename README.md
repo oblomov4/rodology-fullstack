@@ -33,4 +33,4 @@
 
 
 ## 📝 Лицензия
-MIT License © 2024 oblomov4
+MIT License © 2025 oblomov4
