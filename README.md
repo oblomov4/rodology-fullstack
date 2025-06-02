@@ -32,5 +32,22 @@
 ---
 
 
+## 📸 Как это выглядит
+
+![Image](https://github.com/user-attachments/assets/6833e885-8095-446d-8f0f-a5eeecef77f9)
+
+![Image](https://github.com/user-attachments/assets/dc596b05-a518-4075-84a0-48a18deae408)
+
+![Image](https://github.com/user-attachments/assets/9b03c5df-79c0-4bec-9e12-dbda67b31e7c)
+
+![Image](https://github.com/user-attachments/assets/b4bc7f7e-a246-47f1-bf16-df1787af64a7)
+
+![Image](https://github.com/user-attachments/assets/937d2966-6af9-444c-bce6-db90cb226c04)
+
+![Image](https://github.com/user-attachments/assets/e13c1400-8da4-4065-b4b8-9687b7d5d7e1)
+
+![Image](https://github.com/user-attachments/assets/fd03d1d6-b7b6-43a7-81a3-03f588f606c1)
+
+
 ## 📝 Лицензия
 MIT License © 2025 oblomov4
